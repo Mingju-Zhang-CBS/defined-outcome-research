@@ -1,0 +1,56 @@
+{
+  "data_kind": "public-terms-with-simulated-scenarios",
+  "entry_scenarios": 36,
+  "fee_friction_scenarios": 9,
+  "budget_cap_scenarios": 9,
+  "terminal_grid_points": 322,
+  "initial_costs": {
+    "underlying": 100.0,
+    "protective_put": 106.45795673870384,
+    "buffer": 99.89778122849594
+  },
+  "issuer_cap_gross": 0.1646,
+  "issuer_cap_net": 0.1567,
+  "issuer_buffer_gross": 0.09,
+  "issuer_buffer_net": 0.0821,
+  "unit_depletion_target_cap": 0.15543590583283717,
+  "target_vs_leg_payoff_max_abs_error": 1.1102230246251565e-16,
+  "model_budget_cap_base": 0.16907631998713307,
+  "model_initial_target_cost_gap": -0.1022187715040559,
+  "rounded_strike_implied_buffer": 0.0899945742231607,
+  "rounded_strike_implied_cap": 0.16467965920255745,
+  "deep_call_strike_fraction": 0.010015690760048686,
+  "quote_observations": 0,
+  "issuer_nav_reconciliation": "not-performed",
+  "example_mid_entry": {
+    "elapsed_years": 0.5,
+    "remaining_years": 0.5,
+    "entry_spot": 120.0,
+    "volatility": 0.2,
+    "entry_mark": 110.88002896491847,
+    "max_return_net": 0.04618380263249411,
+    "flat_original_return_net": -0.10167971609780702,
+    "reference_decline_to_buffer_end": -0.2416666666666667,
+    "return_at_terminal_80": -0.2004949473270482,
+    "return_at_terminal_100": -0.10167971609780702,
+    "return_at_terminal_120": 0.04618380263249411
+  },
+  "example_low_budget": {
+    "packages": 0,
+    "cash": 5000.0,
+    "initial_debit": 0.0,
+    "package_cost": 10003.767900972443,
+    "multiplier": 100,
+    "budget": 5000,
+    "status": "budget-too-small",
+    "terminal_80_claim_wealth": 0.0,
+    "terminal_80_cash_wealth": 5152.272669767584,
+    "terminal_80_terminal_wealth": 5152.272669767584,
+    "terminal_80_pnl": 152.27266976758438
+  },
+  "performance": {
+    "wall_seconds": 2.900689899979625,
+    "peak_python_allocation_bytes": 16987845,
+    "measurement": "perf_counter and tracemalloc, including five figures; not RSS, exchange latency or a portable speed benchmark"
+  }
+}

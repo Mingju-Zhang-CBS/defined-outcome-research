@@ -1,0 +1,8 @@
+strategy,kind,quantity,strike,gross_mark
+underlying,price_claim,1,0,100
+protective_put,price_claim,1,0,100
+protective_put,put,1,100,6.4579567387
+buffer,price_claim,1,0,100
+buffer,put,1,100,6.4579567387
+buffer,put,-1,91,-3.05219370387
+buffer,call,-1,116.46,-3.50798180633

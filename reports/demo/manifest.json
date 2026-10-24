@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-24T00:55:35.702727+00:00",
+  "data_kind": "public-terms-with-simulated-scenarios",
+  "protocol_sha256": "13a6eb8902e082d20959e47f43a60ffdf2e273b750ca182cf33fbaa5d7b20d31",
+  "issuer_terms_sha256": "6be1e929180930b09c539c63e0304fb16890a8f5ee39a835ad0eca1ca4a8953a",
+  "source_sha256": {
+    "__init__.py": "41d1298059f82bbb275b9f32b76ad6abb194e44e8d9a40e8f47ae90182f3cd39",
+    "__main__.py": "5f4ea719441ed9b928ae234b2c1a7cf809fc604a1dc47f7158be716c30fa9004",
+    "core.py": "2d63937fbd13ddeb58ffcbae14e03ec9790d10024d45469530ddbaf732a2995d",
+    "plots.py": "fb7a6d95ce0a7f16b12084af81da63a0d3c87265d6c7ae767ce958fa77c2228e",
+    "quotes.py": "0b12dd5d198a728855d0213aab371187a1d5864f01fc66aaf569007b20ed4b54",
+    "study.py": "8e16fea6c5a723aa8db3349874dbf3e95d23f09162d2ee0175d091fe4dde000c"
+  },
+  "environment": {
+    "python": "3.12.6",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "numpy": "2.1.2",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2"
+  },
+  "scope": "Issuer factual terms plus deterministic model scenarios; no empirical P&L, real fund NAV valuation or executable quotes.",
+  "files_sha256": {
+    "entry_scenarios.csv": "57cc43475fdd282ef59377da0f658d990fd11944af5a5cd3fb91a4838e4272f7",
+    "entry_time.png": "520d9b62a0d78bfdf5d2ae17010e5af1b36e25fd2d88684988f5f473ed8732ca",
+    "fee_friction.csv": "e9fb47d7f25232ee0c892a36d36a4ab17be152935e98e383f5aad69d1a4b11c4",
+    "fees_and_option_budget.png": "bee59de6318d531fd9f90d0829316e479d63b2274021dad93f079ef76d10202f",
+    "initial_costs.csv": "b929ddf073acaaf7053098f55aa3cf29c6c01869aa0f3d9964898898089d0d43",
+    "integer_accounts.csv": "98226939d11138e8d7434ebfaca0422e4dee6d8eacd1131b3ba91736f209aa25",
+    "integer_budget.png": "91d4c8102c6bf120dd9f43454f7d814a3b05300605da2568cb7d9f66f76034a5",
+    "interim_marks.csv": "35c0c25d40b58b9dc23c8eeacd608bcb7ef11429b5fa4b917183d0fed0d8f327",
+    "interim_value.png": "5a3e7edf77558152d1197c5c642bd6b9ca7bc276ddbacab7a1650cc49a6501c1",
+    "issuer_terms.csv": "e334581cecd97be26287909fd5a04dc436f087bd55a0d0275e908d99886024a0",
+    "metrics.json": "779dd81e7040c8c8f3ae3cb74f93e012bb519f8130418c04adea185b9e9c9062",
+    "model_budget_caps.csv": "000c7cd560679eac97ced89435762c9b42553a11b378d8d97f85d1d27758521b",
+    "payoff_and_cost.png": "d17a7976237baf4d0017792ae11afa6eb47426e2b15c4a0b6424321e5bcf0d96",
+    "REPORT.md": "20c2f572d13643e1d23ef638879fb3ec9486bffbea4200c895a5e0eafa8e6dba",
+    "terminal_payoffs.csv": "d9745ecad1aec9ef26c98e68628c9550496f46be996437136c03058def97a4df"
+  }
+}

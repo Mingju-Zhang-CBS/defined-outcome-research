@@ -1,0 +1,93 @@
+{
+  "version": "2026-10-23",
+  "nature": "manually verified factual terms; not raw issuer documents or quote data",
+  "sources": [
+    {
+      "id": "bjan-summary.pdf",
+      "url": "https://www.innovatoretfs.com/pdf/bjan_summary_prospectus.pdf",
+      "retrieved_utc": "2026-10-24T00:46:28.761305+00:00",
+      "sha256": "58efacdb4bdf29135641d3ab6f2adefa79e323b593b62de19f8a58786f45d1cb",
+      "bytes": 227762,
+      "document_date": "2026-02-27",
+      "locator": "PDF pages 1-2 and 4: current outcome period, gross/net terms, holding period; page 8-9: option and dividend conventions"
+    },
+    {
+      "id": "bjan-factsheet.pdf",
+      "url": "https://www.innovatoretfs.com/pdf/bjan_factsheet.pdf",
+      "retrieved_utc": "2026-10-24T00:46:29.232633+00:00",
+      "sha256": "252af749b83794c39316ec4b9c843c439589d41ac25d9b6cabeec2dbb508a6cc",
+      "bytes": 627658,
+      "document_date": "2026-06-30",
+      "locator": "PDF page 2: rounded option strikes; visual check after faulty PDF text-font extraction"
+    },
+    {
+      "id": "fjan-page.html",
+      "url": "https://www.ftportfolios.com/Retail/Etf/EtfSummary.aspx?Ticker=FJAN",
+      "retrieved_utc": "2026-10-24T00:46:31.599321+00:00",
+      "sha256": "5daeaf9f1a52b176b093cd9158dc842283cddf19506d76b77fa2f295a3c9833e",
+      "bytes": 788303,
+      "document_date": "2026-10-23",
+      "locator": "Investment objective and outcome-period values; observations are a research-date snapshot"
+    }
+  ],
+  "products": [
+    {
+      "ticker": "BJAN",
+      "issuer": "Innovator",
+      "start": "2026-01-01",
+      "end": "2026-12-31",
+      "cap_gross": 0.1646,
+      "buffer_gross": 0.09,
+      "annual_fee": 0.0079,
+      "published_cap_net": 0.1567,
+      "published_buffer_net": 0.0821,
+      "source_id": "bjan-summary.pdf"
+    },
+    {
+      "ticker": "FJAN",
+      "issuer": "First Trust / FT Vest",
+      "start": "2026-01-20",
+      "end": "2027-01-15",
+      "cap_gross": 0.1453,
+      "buffer_gross": 0.1,
+      "annual_fee": 0.0085,
+      "published_cap_net": 0.1368,
+      "published_buffer_net": 0.0915,
+      "source_id": "fjan-page.html"
+    }
+  ],
+  "rounded_strikes": {
+    "ticker": "BJAN",
+    "source_id": "bjan-factsheet.pdf",
+    "reference_level": 681.93,
+    "expiration": "2026-12-31",
+    "legs": [
+      {
+        "kind": "call",
+        "side": "long",
+        "strike": 6.83
+      },
+      {
+        "kind": "put",
+        "side": "short",
+        "strike": 620.56
+      },
+      {
+        "kind": "put",
+        "side": "long",
+        "strike": 681.93
+      },
+      {
+        "kind": "call",
+        "side": "short",
+        "strike": 794.23
+      }
+    ],
+    "quantities_and_fund_cash_verified": false
+  },
+  "quotes": {
+    "bundled_observations": 0,
+    "status": "not-supplied",
+    "reason": "Issuer web displays may be delayed and use different clocks for NAV and bid/ask. No synchronized licensed quote snapshot or full fund holdings/cash reconciliation is included. No price feed is redistributed."
+  }
+}

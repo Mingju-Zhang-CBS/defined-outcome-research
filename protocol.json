@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "as_of": "2026-10-23",
+  "data_kind": "public-terms-with-simulated-scenarios",
+  "terms_case": "BJAN",
+  "reference": 100.0,
+  "buffer": 0.09,
+  "cap": 0.1646,
+  "rate": 0.03,
+  "dividend": 0.0,
+  "volatility": 0.2,
+  "tenor_years": 1.0,
+  "elapsed_years": [
+    0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "entry_spots": [
+    80,
+    100,
+    120
+  ],
+  "volatilities": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "fees": [
+    0,
+    0.0079,
+    0.015
+  ],
+  "entry_half_spread_bps": [
+    0,
+    10,
+    50
+  ],
+  "fair_cap_buffers": [
+    0.05,
+    0.09,
+    0.15
+  ],
+  "budgets": [
+    5000,
+    10000,
+    25000
+  ],
+  "contract_multiplier": 100,
+  "commission_per_package": 4.0,
+  "terminal_grid": {
+    "start": 0,
+    "end": 160,
+    "step": 0.5
+  },
+  "model": "European Black-Scholes constant flat parameters; price claim pays S_T, not dividend-paying stock",
+  "fee_model": "proportional unit depletion exp(-fee * remaining_years), a scenario convention, not fund accounting",
+  "execution": "declared mark-up scenarios only; no executable quotes or fund NAV replication",
+  "selection": "Fixed scenario grid before the first numerical run; no return optimization or historical backtest."
+}
