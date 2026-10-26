@@ -37,7 +37,7 @@ All 36 predeclared entry states, nine fee/friction cases, nine model budget-cap 
 
 The primary case uses BJAN's January-December 2026 period, a 9% gross buffer and 16.46% gross cap. FJAN supplies a separately dated terms cross-check. Sources are the [BJAN prospectus](https://www.innovatoretfs.com/pdf/bjan_summary_prospectus.pdf), [BJAN factsheet](https://www.innovatoretfs.com/pdf/bjan_factsheet.pdf) and [FJAN issuer page](https://www.ftportfolios.com/Retail/Etf/EtfSummary.aspx?Ticker=FJAN), frozen as factual extracts with dates and hashes. Source documents and market feeds are not redistributed.
 
-I implemented signed price-claim/option legs, boundary-safe analytical values, entry-adjusted terminal returns, a model budget-balanced cap solver, fee/friction sensitivity and integer package settlement. A separate CSV validator rejects ambiguous quote units, missing time zones, future observations and crossed bid/ask. It never treats a displayed midpoint as a proven fill.
+The study implements signed price-claim/option legs, boundary-safe analytical values, entry-adjusted terminal returns, a model budget-balanced cap solver, fee/friction sensitivity and integer package settlement. A separate CSV validator rejects ambiguous quote units, missing time zones, future observations and crossed bid/ask. It never treats a displayed midpoint as a proven fill.
 
 **Skills demonstrated:** mathematical finance and numerical validation; product-term interpretation; scenario design; funded portfolio accounting; data provenance; communicating the difference between a model and an investment decision.
 
@@ -62,7 +62,7 @@ Tests cover independent risk-neutral integration, put-call parity, strike bounda
 
 - [Methods](docs/METHODS.md): formulas, dividends, fee conventions, budget and quote boundaries.
 - [Walkthrough](docs/WALKTHROUGH.md): one purchase through settlement and an issuer-versus-model checklist.
-- [Interview guide](docs/INTERVIEW.md) and [resume wording](docs/RESUME.md): explainable claims with linked evidence.
+- [Technical discussion](docs/DISCUSSION.md): explainable claims with linked evidence.
 - [Source ledger](defined_outcome_research/data/issuer_terms.json) and [data notice](DATA_LICENSE.md): dated minimal facts and rights scope.
 
 ## Limits and contribution
